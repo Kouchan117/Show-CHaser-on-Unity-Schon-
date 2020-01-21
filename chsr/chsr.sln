@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniRx", "UniRx.csproj", "{C6E634D9-EBAA-BECF-B02B-DDE3A48181AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7A624502-05CB-991A-1DBE-125D7C89EDDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6E634D9-EBAA-BECF-B02B-DDE3A48181AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E634D9-EBAA-BECF-B02B-DDE3A48181AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E634D9-EBAA-BECF-B02B-DDE3A48181AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E634D9-EBAA-BECF-B02B-DDE3A48181AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A624502-05CB-991A-1DBE-125D7C89EDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A624502-05CB-991A-1DBE-125D7C89EDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A624502-05CB-991A-1DBE-125D7C89EDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A624502-05CB-991A-1DBE-125D7C89EDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

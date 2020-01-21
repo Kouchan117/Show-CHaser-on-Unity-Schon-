@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a43eaeb3be6bb7e4189ad7cb91bf28d1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Cube: {fileID: 2478062202489787788, guid: 51c768e436929a94fb3b3720826d9b57, type: 3}
+  - Cone: {fileID: 6668483142678611143, guid: daa2a8ccd3a32f84bbf7655a3245604c, type: 3}
+  - Hot: {instanceID: 0}
+  - Cool: {instanceID: 0}
+  - Turn_text: {fileID: 100000, guid: f242ef8d5f2010e4c87eb07ecc4fb1f9, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
