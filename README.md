@@ -24,14 +24,14 @@ CHaserサーバー及び, クライアントを実行するためにあらかじ
 
 ## Usage
 
-* CHaser-Server-master
+** CHaser-Server-master **
 * ruby chsr.rb [-h] : 簡単なヘルプの表示
 * ruby chsr.rb [-m] マップ名 : マップの選択(未入力の場合はmap01.mapが選択される)
 * ruby chsr.rb [-w] 数字 : 画面表示のウェイトの指定
 * ruby chsr.rb [-p] [数字] : ポーズモードで起動します. 
 * ruby chsr.rb [-z] : 全角モードで起動
 
-* CHaser-master
+** CHaser-master **
 * ruby ファイル名でクライアント起動
 * example : ruby Test1.rb
 * 起動前にクライアントプログラム内の接続先IPをサーバーと同じに変更を行ってください.
