@@ -13,8 +13,8 @@ public class Fieldfactory : MonoBehaviour
     public GameObject Cube;
     public GameObject Cone;
 
-    [SerializeField] private PlayerController hotPlayer;
-    [SerializeField] private PlayerController coolPlayer;
+    [SerializeField] private PlayerController hotPlayer = default;
+    [SerializeField] private PlayerController coolPlayer = default;
 
     public Text Turn_obj;
     public Text Hot_obj;
@@ -45,7 +45,8 @@ public class Fieldfactory : MonoBehaviour
 
         if (before_map == null) m = map.map;
         else m = MapData.Difference(before_map.map, map.map);
-        Turn_obj.text = "Turn : " + map.turn;
+        //Turn_obj.text = "Turn : " + map.turn;
+        Turn_obj.text = map.turn.ToString();
         Hot_obj.text = "Hot : " + map.score.hot;
         Cool_obj.text = "Cool : " + map.score.cool;
 
