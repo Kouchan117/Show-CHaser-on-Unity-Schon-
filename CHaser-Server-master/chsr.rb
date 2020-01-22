@@ -20,7 +20,7 @@ require 'logger'
 require 'date'
 require 'json'
 require './socket_client.rb' 
-require 'sqlite3'
+#require 'sqlite3'
 
 timestmp = DateTime.now.strftime('%Y%m%d%H%M%S')
 @log = Logger.new('./CH-'+ timestmp + ".log")
@@ -66,7 +66,7 @@ wait = 0.5              # 表示速度のウェイト（秒）
 step_count = 0          # ポーズモード用カウンタ
 values = Array.new(10)  # 送信データ用領域
 put_winner = 0
-sql_log = SQLite3::Database.new('chsr.db')
+#sql_log = SQLite3::Database.new('chsr.db')
 #
 #
 # 関数定義
