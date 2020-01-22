@@ -12,6 +12,7 @@ using UniRx.Triggers;
 
 namespace UnityTCP
 {
+    [DisallowMultipleComponent]
     public class TcpServerController : MonoBehaviour
     {
         public static TcpServerController Instance { private set; get; } = default;
@@ -127,6 +128,7 @@ namespace UnityTCP
                 return;
             }
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
 
         protected virtual void Start()
