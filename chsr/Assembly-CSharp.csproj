@@ -67,8 +67,33 @@
     <Compile Include="Assets\Scripts\Fieldfactory.cs" />
     <Compile Include="Assets\Scripts\MapData.cs" />
     <Compile Include="Assets\Scripts\TestTCPServer.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\AutoBlinkforSD.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\IKCtrlRightHand.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\IKLookAt.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\RandomWind.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\SpringBone.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\SpringCollider.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\SpringManager.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\UnityTCP\Scripts\TcpServerController.cs" />
     <Compile Include="Assets\UnityTCP\Scripts\TestServerController.cs" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\readme.txt" />
+    <None Include="Assets\README_SD_KohakuChanz.txt" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Sourcetree/Show-CHaser-on-Unity-Schon-/chsr/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
