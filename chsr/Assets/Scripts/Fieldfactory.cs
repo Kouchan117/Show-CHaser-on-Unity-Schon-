@@ -71,12 +71,12 @@ public class Fieldfactory : MonoBehaviour
                 else if (m[x].array[y] == 4)
                 {
                     // 4 is Move CoolPlayer
-                    coolPlayer.Move(new Vector3(x, 1, y));
+                    coolPlayer.Move(new Vector3(x, 0, y));
                 }
                 else if (m[x].array[y] == 5)
                 {
                     // 5 is Move CoolPlayer
-                    hotPlayer.Move(new Vector3(x, 1, y));
+                    hotPlayer.Move(new Vector3(x, 0, y));
                 }
             }
         }
