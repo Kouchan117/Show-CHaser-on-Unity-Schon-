@@ -9,22 +9,36 @@ namespace Player
         [SerializeField] private float moveTime = 1f;
         [SerializeField] private AnimationCurve moveCurve = default;
 
+        private Animator animator = default;
+
+        private void Awake()
+        {
+            animator = GetComponentInChildren<Animator>();
+        }
+
         public void Move(Vector3 position)
         {
-            StopCoroutine(MoveCoroutine(position, moveTime / 2f));
+            StopCoroutine(MoveCoroutine(position, moveTime));
+            StopCoroutine(RotateCoroutine(position - transform.position, moveTime));
 
-            StartCoroutine(MoveCoroutine(position, moveTime / 2f));
+
+            StartCoroutine(MoveCoroutine(position, moveTime));
+            StartCoroutine(RotateCoroutine(position - transform.position, moveTime / 2f));
         }
 
         private IEnumerator MoveCoroutine(Vector3 position, float time)
         {
-            yield return RotateCoroutine(position - transform.position, time);
+            //yield return RotateCoroutine(position - transform.position, time);
 
             float t = 0;
             var a = transform.position;
             var b = position;
 
-            while(t <= 1)
+            if (a == b) yield break;
+
+            animator.SetBool("isWalk", true);
+
+            while (t <= 1)
             {
                 transform.position = Vector3.Lerp(a, b, moveCurve.Evaluate(t));
                 yield return null;
@@ -32,6 +46,7 @@ namespace Player
             }
 
             transform.position = b;
+            animator.SetBool("isWalk", false);
             yield break;
         }
 
@@ -41,11 +56,14 @@ namespace Player
             var a = transform.rotation;
             var b = Quaternion.LookRotation(target, Vector3.up);
 
+            if (a == b) yield break;
+            
             while (t <= 1)
             {
                 transform.rotation = Quaternion.Lerp(a, b, moveCurve.Evaluate(t));
                 yield return null;
                 t += Time.deltaTime / time;
+
             }
 
             transform.rotation = b;

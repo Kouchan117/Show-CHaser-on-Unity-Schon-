@@ -62,10 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Field\Scripts\Fieldfactory.cs" />
     <Compile Include="Assets\Field\Scripts\FieldManager.cs" />
+    <Compile Include="Assets\Field\Scripts\MapData.cs" />
     <Compile Include="Assets\Player\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Fieldfactory.cs" />
-    <Compile Include="Assets\Scripts\MapData.cs" />
     <Compile Include="Assets\Scripts\TestTCPServer.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlinkforSD.cs" />
