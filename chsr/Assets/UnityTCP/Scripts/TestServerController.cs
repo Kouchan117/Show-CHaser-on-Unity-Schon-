@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
 
+using Field;
 using UniRx;
 
 namespace UnityTCP
