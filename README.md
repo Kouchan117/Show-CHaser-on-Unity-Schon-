@@ -43,3 +43,9 @@ UnityHubでchsrフォルダを指定してください.
 * [UniRx](https://github.com/neuecc/UniRx/blob/master/LICENSE)
 * [CHaser-Server](https://github.com/t-akisato/CHaser-Server/blob/master/LICENSE)
 © Unity Technologies Japan/UCL
+
+## Update
+2020/1/24
+* キャラモデルの実装
+* サーバーモード及びログリードモードの実装
+* プレイヤー移動, ブロックテクスチャ等細かな調整
