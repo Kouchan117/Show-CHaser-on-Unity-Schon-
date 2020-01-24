@@ -20,22 +20,25 @@ Rubyサーバーから渡されたログをUnity上で読むことで再現を�
 ![play-schon](https://user-images.githubusercontent.com/15669383/72806547-c1a91280-3c98-11ea-9192-5863e911f2c8.gif)
 
 ## Requirement
-CHaserサーバー及び, クライアントを実行するためにあらかじめWSLにruby環境を導入する必要があります. 
+CHaserサーバー及び, クライアントを実行するためにあらかじめWSLにRuby環境を導入する必要があります. 
 
 ## Usage
 
-** CHaser-Server-master **
-* ruby chsr.rb [-h] : 簡単なヘルプの表示
-* ruby chsr.rb [-m] マップ名 : マップの選択(未入力の場合はmap01.mapが選択される)
-* ruby chsr.rb [-w] 数字 : 画面表示のウェイトの指定
-* ruby chsr.rb [-p] [数字] : ポーズモードで起動します. 
-* ruby chsr.rb [-z] : 全角モードで起動
-
-** CHaser-master **
-* ruby ファイル名でクライアント起動
-* example : ruby Test1.rb
-* 起動前にクライアントプログラム内の接続先IPをサーバーと同じに変更を行ってください.
-
+**CHaser-Server-master**
+```
+ruby chsr.rb [-h] : 簡単なヘルプの表示
+ruby chsr.rb [-m] マップ名 : マップの選択(未入力の場合はmap01.mapが選択される)
+ruby chsr.rb [-w] 数字 : 画面表示のウェイトの指定
+ruby chsr.rb [-p] [数字] : ポーズモードで起動します. 
+ruby chsr.rb [-z] : 全角モードで起動
+```
+**CHaser-master**
+```
+ruby ファイル名でクライアント起動
+example : ruby Test1.rb
+```
+~~起動前にクライアントプログラム内の接続先IPをサーバーと同じに変更を行ってください.~~
+接続先をlocalhostに書き換えたため変更は必要なくなりました. 
 ## Install
 UnityHubでchsrフォルダを指定してください. 
 
