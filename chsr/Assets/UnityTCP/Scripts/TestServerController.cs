@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
 
+using Field;
 using UniRx;
 
 namespace UnityTCP
 {
     public class TestServerController : MonoBehaviour
     {
-        //[SerializeField] private GameObject cubePrefab = default;
-        public Fieldfactory ff;
+        private Fieldfactory fieldFactory = default;
 
         private void Start()
         {
@@ -52,7 +52,7 @@ namespace UnityTCP
         private void GetMessage(string msg)
         {
             Debug.Log(msg);
-            ff.GenerateField(msg);
+            fieldFactory.GenerateField(msg);
 
             //var obj = Instantiate(cubePrefab, new Vector3(Random.Range(-10f, 10f), 0, Random.Range(-10f, 10f)), Quaternion.identity);
             //obj.name = msg;
