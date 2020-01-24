@@ -40,9 +40,9 @@ CHaserサーバー及び, クライアントを実行するためにあらかじ
 UnityHubでchsrフォルダを指定してください. 
 
 ## Licence
+© Unity Technologies Japan/UCL
 * [UniRx](https://github.com/neuecc/UniRx/blob/master/LICENSE)
 * [CHaser-Server](https://github.com/t-akisato/CHaser-Server/blob/master/LICENSE)
-© Unity Technologies Japan/UCL
 
 ## Update
 2020/1/24
