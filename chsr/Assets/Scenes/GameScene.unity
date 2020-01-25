@@ -892,7 +892,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 1
-  logPath: D:\Sourcetree\Show-CHaser-on-Unity-Schon-\CHaser-Server-master\log\CH-20200119214305.log
   readSpan: 0.5
 --- !u!4 &1496769190
 Transform:
@@ -1213,6 +1212,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HotPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 2077837541142785158, guid: d8733bce04d178441ae321c61b0f5a40,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8641674104909718710, guid: d8733bce04d178441ae321c61b0f5a40,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1268,16 +1272,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2077837541142785158, guid: d8733bce04d178441ae321c61b0f5a40,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2077837541135359602, guid: d8733bce04d178441ae321c61b0f5a40,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: c8e5662cefcfdbf419fcc0719f319e15, type: 2}
+    - target: {fileID: 8641674104909718711, guid: d8733bce04d178441ae321c61b0f5a40,
+        type: 3}
+      propertyPath: moveTime
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8733bce04d178441ae321c61b0f5a40, type: 3}
 --- !u!1001 &7515528944393590622
@@ -1291,6 +1295,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CoolPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 353179218922332022, guid: 621d0bc503eff6745aea200b624f7a75,
+        type: 3}
+      propertyPath: moveTime
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 353179218922332023, guid: 621d0bc503eff6745aea200b624f7a75,
         type: 3}
@@ -1346,11 +1355,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 353179218922332022, guid: 621d0bc503eff6745aea200b624f7a75,
-        type: 3}
-      propertyPath: moveTime
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7515528945767073775, guid: 621d0bc503eff6745aea200b624f7a75,
         type: 3}

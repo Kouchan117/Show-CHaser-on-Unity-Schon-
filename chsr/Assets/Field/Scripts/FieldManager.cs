@@ -14,8 +14,7 @@ namespace Field
     {
         private enum Mode { ServerMode, ReaderMode }
         [SerializeField] private Mode mode = Mode.ServerMode;
-
-        [SerializeField] private string logPath = default;
+        private string path = default;
         [SerializeField] private float readSpan = 1f;
 
         private Fieldfactory fieldFactory = default;
@@ -32,6 +31,13 @@ namespace Field
                 case Mode.ServerMode: InitServerMode(); break;
                 case Mode.ReaderMode: InitReaderMode(); break;
             }
+        }
+
+        public string SelectFile()
+        {
+            path = OpenFileName.ShowDialog();
+            Debug.Log(path);
+            return(path);
         }
 
         private void InitServerMode()
@@ -73,7 +79,7 @@ namespace Field
         private void InitReaderMode()
         {
             Debug.Log("Start ReaderMode");
-            StreamReader reader = new StreamReader(logPath, Encoding.UTF8);
+            StreamReader reader = new StreamReader(SelectFile(), Encoding.UTF8);
             StartCoroutine(readLogCoroutine(reader));
         }
 
