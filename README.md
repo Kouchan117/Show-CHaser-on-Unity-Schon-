@@ -42,4 +42,15 @@ UnityHubでchsrフォルダを指定してください.
 ## Licence
 * [UniRx](https://github.com/neuecc/UniRx/blob/master/LICENSE)
 * [CHaser-Server](https://github.com/t-akisato/CHaser-Server/blob/master/LICENSE)
+
 © Unity Technologies Japan/UCL
+
+## Update
+2020/1/24
+* キャラクターモデルの実装
+* Server mode及びLogReader modeの実装
+* キャラクターの移動等細かな調整
+
+2020/1/25
+* LogReder modeで実行時Logファイル選択画面が表示されるように(beta)
+
