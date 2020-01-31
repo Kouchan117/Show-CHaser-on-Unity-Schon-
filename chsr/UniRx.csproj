@@ -481,19 +481,19 @@
  <HintPath>D:/Unity/2019.1.6f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>C:/Users/parke/Desktop/Show-CHaser-on-Unity-Schon--develop/Show-CHaser-on-Unity-Schon--develop/chsr/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>C:/Users/parke/vagrant/ubuntu64_16/workspace/Show-CHaser-on-Unity-Schon-/chsr/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/parke/Desktop/Show-CHaser-on-Unity-Schon--develop/Show-CHaser-on-Unity-Schon--develop/chsr/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/parke/vagrant/ubuntu64_16/workspace/Show-CHaser-on-Unity-Schon-/chsr/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/parke/Desktop/Show-CHaser-on-Unity-Schon--develop/Show-CHaser-on-Unity-Schon--develop/chsr/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/parke/vagrant/ubuntu64_16/workspace/Show-CHaser-on-Unity-Schon-/chsr/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/parke/Desktop/Show-CHaser-on-Unity-Schon--develop/Show-CHaser-on-Unity-Schon--develop/chsr/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/parke/vagrant/ubuntu64_16/workspace/Show-CHaser-on-Unity-Schon-/chsr/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/parke/Desktop/Show-CHaser-on-Unity-Schon--develop/Show-CHaser-on-Unity-Schon--develop/chsr/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/parke/vagrant/ubuntu64_16/workspace/Show-CHaser-on-Unity-Schon-/chsr/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Unity/2019.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

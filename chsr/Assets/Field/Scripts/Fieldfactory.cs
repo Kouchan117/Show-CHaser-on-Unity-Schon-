@@ -39,7 +39,7 @@ namespace Field
             }
             catch (Exception ex)
             {
-                Debug.Log(ex);
+                //Debug.Log(ex);
                 return null;
             }
         }
